@@ -6,8 +6,8 @@ import subprocess  # Use ffmpeg directly
 import re
 
 # CONFIG
-num_samples = 50  # Number of videos to process
-filename = "panda70m_training_2m.csv"  # Dataset CSV filename
+num_samples = 1  # Number of videos to process
+filename = "panda70m_testing_with_additional_annotation.csv"  # Dataset CSV filename
 directory = "data/"  # CSV directory
 
 # SETUP
